@@ -6,6 +6,13 @@
         { "key": "Content-Type", "value": "application/json" }
       ]
     }
+    ,
+    {
+      "source": "/.well-known/assetlinks.json",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json" }
+      ]
+    }
   ],
   "rewrites": [
     { "source": "/profile/:path*", "destination": "/redirect.html" },

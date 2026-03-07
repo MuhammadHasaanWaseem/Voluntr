@@ -3,6 +3,21 @@
     "apps": [],
     "details": [
       {
+        "appID": "REPLACE_TEAMID.REPLACE_BUNDLE_ID",
+        "paths": [
+          "/profile/*",
+          "/post/*",
+          "/"
+        ]
+      }
+    ]
+  }
+}
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
         "appID": "5F6F8FHR4V.com.voluntr.app",
         "paths": ["/profile/*", "/post/*"]
       }
