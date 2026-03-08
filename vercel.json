@@ -16,6 +16,8 @@
   ],
   "rewrites": [
     { "source": "/profile/:path*", "destination": "/redirect.html" },
-    { "source": "/post/:path*", "destination": "/redirect.html" }
+    { "source": "/post/:path*", "destination": "/redirect.html" },
+    { "source": "/event/:path*", "destination": "/redirect.html" }
+    
   ]
 }
